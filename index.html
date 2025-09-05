@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logo to Dots Animation</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r148/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+  <script src="sketch.js"></script>
+</head>
+<body>
+  <div id="ui">
+    <input id="imgUrl" placeholder="Paste image URL (e.g., IBM logo)" type="text" />
+    <input id="imgFile" type="file" accept="image/*" />
+    <button id="loadBtn" type="button">Load Logo</button>
+  </div>
+
+  <div id="popup" class="hidden">
+    <div class="close-btn" id="popup-close">✕</div>
+    <span id="popup-text"></span>
+  </div>
+</body>
+</html>
