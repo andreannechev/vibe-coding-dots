@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Logo → Dots (Layered + Controls)</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+</head>
+<body>
+  <div id="ui">
+    <div class="line">
+      <input id="imgUrl" placeholder="Paste image URL" type="text" />
+      <input id="imgFile" type="file" accept="image/*" />
+      <button id="loadBtn" type="button">Load Logo</button>
+    </div>
+    <div class="line sliders">
+      <label>Dots: <input type="range" id="dotCount" min="4" max="20" value="10" /></label>
+      <label>Sides: <input type="range" id="dotSides" min="3" max="24" value="4" /></label>
+      <label>Size: <input type="range" id="dotSize" min="2" max="12" value="6" /></label>
+      <label>Layers: <input type="range" id="layerCount" min="1" max="8" value="2" /></label>
+      <label>Layer Space: <input type="range" id="layerSpacing" min="0" max="200" value="60" /></label>
+      <label>Zoom: <input type="range" id="zoom" min="10" max="200" value="80" /></label>
+    </div>
+  </div>
+
+  <div id="popup" class="hidden"><span id="popup-text"></span></div>
+  <script src="sketch.js"></script>
+</body>
+</html>

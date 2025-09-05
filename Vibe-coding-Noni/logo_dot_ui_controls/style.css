@@ -1,0 +1,59 @@
+
+body {
+  margin: 0;
+  background: #111;
+  color: white;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+}
+
+#ui {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.line {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#popup {
+  position: absolute;
+  padding: 20px;
+  background: white;
+  color: black;
+  border-radius: 8px;
+  top: 50px;
+  left: 50px;
+  max-width: 250px;
+  font-family: sans-serif;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+label {
+  font-size: 12px;
+}
+
+input[type="range"] {
+  width: 80px;
+}

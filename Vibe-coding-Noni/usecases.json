@@ -1,0 +1,237 @@
+[
+  {
+    "id": "uc_001",
+    "title": "Automated customer support with human handoff",
+    "description": "AI handles common queries with seamless transition to a human agent when needed.",
+    "tags": [
+      "support",
+      "automation",
+      "conversation",
+      "handoff"
+    ],
+    "cluster": "Customer Service"
+  },
+  {
+    "id": "uc_002",
+    "title": "Agentic troubleshooting for telecom outages",
+    "description": "Proactive diagnostics and step-by-step resolution for telecom issues.",
+    "tags": [
+      "troubleshooting",
+      "automation",
+      "telecom"
+    ],
+    "cluster": "Technical Support"
+  },
+  {
+    "id": "uc_003",
+    "title": "Personalized learning paths for students",
+    "description": "Adaptive learning based on progress, strengths, and weaknesses.",
+    "tags": [
+      "education",
+      "personalization",
+      "learning"
+    ],
+    "cluster": "Education"
+  },
+  {
+    "id": "uc_004",
+    "title": "Fraud detection using graph-based models",
+    "description": "Detects anomalies in transaction networks using relational AI.",
+    "tags": [
+      "fraud",
+      "finance",
+      "security"
+    ],
+    "cluster": "Finance & Risk"
+  },
+  {
+    "id": "uc_005",
+    "title": "Real-time speech-to-speech translation",
+    "description": "Translates spoken conversations in real-time across multiple languages.",
+    "tags": [
+      "language",
+      "real-time",
+      "translation",
+      "communication"
+    ],
+    "cluster": "Communication"
+  },
+  {
+    "id": "uc_006",
+    "title": "Marketing copy co-pilot with brand guardrails",
+    "description": "Generates creative copy while enforcing brand tone and rules.",
+    "tags": [
+      "marketing",
+      "copywriting",
+      "branding",
+      "content"
+    ],
+    "cluster": "Marketing & Creativity"
+  },
+  {
+    "id": "uc_007",
+    "title": "Smart triage for IT helpdesk tickets",
+    "description": "Routes and resolves tickets using AI-based categorization.",
+    "tags": [
+      "IT",
+      "support",
+      "ticketing",
+      "triage"
+    ],
+    "cluster": "IT Ops"
+  },
+  {
+    "id": "uc_008",
+    "title": "Retail demand forecasting by region",
+    "description": "Predicts product demand using historical and real-time signals.",
+    "tags": [
+      "retail",
+      "forecasting",
+      "inventory"
+    ],
+    "cluster": "Retail Intelligence"
+  },
+  {
+    "id": "uc_009",
+    "title": "Document Q&A over private knowledge bases",
+    "description": "Semantic search and Q&A over internal documents.",
+    "tags": [
+      "documents",
+      "Q&A",
+      "search",
+      "knowledge"
+    ],
+    "cluster": "Knowledge Management"
+  },
+  {
+    "id": "uc_010",
+    "title": "Quality assurance on call transcripts",
+    "description": "Monitors calls for compliance and tone using AI transcription.",
+    "tags": [
+      "QA",
+      "transcripts",
+      "voice",
+      "compliance"
+    ],
+    "cluster": "Customer Service"
+  },
+  {
+    "id": "uc_011",
+    "title": "AI-powered accessibility (alt text, captions)",
+    "description": "Auto-generates alt text and captions to improve accessibility.",
+    "tags": [
+      "accessibility",
+      "alt text",
+      "captions",
+      "inclusion"
+    ],
+    "cluster": "Inclusion & Accessibility"
+  },
+  {
+    "id": "uc_012",
+    "title": "Proactive churn prediction and retention offers",
+    "description": "Predicts churn and triggers timely retention incentives.",
+    "tags": [
+      "churn",
+      "retention",
+      "offers",
+      "prediction"
+    ],
+    "cluster": "Customer Intelligence"
+  },
+  {
+    "id": "uc_013",
+    "title": "Code review assistant with style rules",
+    "description": "Analyzes code and suggests improvements based on team style.",
+    "tags": [
+      "code",
+      "review",
+      "linting",
+      "developer tools"
+    ],
+    "cluster": "Developer Experience"
+  },
+  {
+    "id": "uc_014",
+    "title": "Safety filtering and red teaming tools",
+    "description": "Filters unsafe content and stress-tests models via red teaming.",
+    "tags": [
+      "safety",
+      "moderation",
+      "red teaming",
+      "AI safety"
+    ],
+    "cluster": "AI Governance"
+  },
+  {
+    "id": "uc_015",
+    "title": "Summarization of long meetings with actions",
+    "description": "Generates concise summaries and next steps from transcripts.",
+    "tags": [
+      "meetings",
+      "summarization",
+      "notes",
+      "voice"
+    ],
+    "cluster": "Productivity"
+  },
+  {
+    "id": "uc_016",
+    "title": "Anomaly detection for IoT sensor streams",
+    "description": "Monitors live data streams and detects irregularities.",
+    "tags": [
+      "IoT",
+      "anomaly",
+      "sensors",
+      "monitoring"
+    ],
+    "cluster": "Industrial Monitoring"
+  },
+  {
+    "id": "uc_017",
+    "title": "Personal finance coaching from spending data",
+    "description": "Helps users manage money based on patterns in transactions.",
+    "tags": [
+      "finance",
+      "coaching",
+      "personal",
+      "spending"
+    ],
+    "cluster": "Personal Finance"
+  },
+  {
+    "id": "uc_018",
+    "title": "Healthcare intake triage (symptom checker)",
+    "description": "Early-stage triage based on symptoms and conditions.",
+    "tags": [
+      "healthcare",
+      "triage",
+      "symptoms",
+      "intake"
+    ],
+    "cluster": "Healthcare"
+  },
+  {
+    "id": "uc_019",
+    "title": "Network capacity planning (what\u2011if sims)",
+    "description": "Simulates load and usage for telecom network planning.",
+    "tags": [
+      "telecom",
+      "simulation",
+      "capacity"
+    ],
+    "cluster": "Infrastructure"
+  },
+  {
+    "id": "uc_020",
+    "title": "Conversational analytics over BI dashboards",
+    "description": "Chat interface over business dashboards and KPIs.",
+    "tags": [
+      "analytics",
+      "dashboards",
+      "BI",
+      "conversation"
+    ],
+    "cluster": "Business Intelligence"
+  }
+]
